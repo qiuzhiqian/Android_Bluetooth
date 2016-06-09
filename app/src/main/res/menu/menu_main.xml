@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/CommunicteModeId"
+        android:title="交流模式选择"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/WorkModeId"
+        android:title="工作模式选择"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/exitId"
+        android:title="退出"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+       />
+</menu>
